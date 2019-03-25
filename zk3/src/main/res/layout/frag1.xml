@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <shixun.lj.bw.zk3.myline.Myline
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.recker.flybanner.FlyBanner
+            android:id="@+id/flay"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"></com.recker.flybanner.FlyBanner>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recy1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recy2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
